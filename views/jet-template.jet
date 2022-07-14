@@ -1,0 +1,27 @@
+{{extends "./layouts/base.jet"}}
+
+{{block browserTitle()}} Jet Template{{end}}
+
+{{block css()}}
+
+{{end}}
+
+{{block pageContent()}}
+    <div class="col text-center">
+        <div class="d-flex align-items-center justify-content-center mt-5">
+            <div>
+                <img src="/public/images/gortisan.jpg" class="mb-5" style="width: 100px;height:auto;">
+                <h1>Goravel & Gortisan (Jet Templates)</h1>
+                <hr>
+                <small class="text-muted">This page is rendered using the Jet Template Engine</small>
+
+                <br><br>
+                    <a id="back" class="btn btn-outline-primary" onclick="window.history.back()" >Back</a>
+            </div>
+        </div> 
+    </div>
+{{end}}
+
+{{block js()}}
+
+{{end}}

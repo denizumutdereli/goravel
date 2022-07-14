@@ -1,0 +1,360 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Mon Jul 11 21:50:27 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `makefile', line 1)
+BINARY_NAME = gortisan.exe
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/go/goravel
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C: 
+\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+ONEDRIVE = C:\Users\u.dereli\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\UDE1E~1.DER\AppData\Local\Temp
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\u.dereli\AppData\Local\Programs\Microsoft VS Code
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+PATH = C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GnuWin32\bin;C:\go\bin;;C:\TDM-GCC-64\bin;C:\Program Files\Kubernetes\Minikube;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Go\bin;C:\Users\u.dereli\AppData\Local\Microsoft\WindowsApps;C:\Users\u.dereli\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\u.dereli\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\GoLand 2022.1\bin;;C:\Users\u.dereli\AppData\Roaming\npm;C:\Users\u.dereli\go\bin
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132972841531328331
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\u.dereli
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = C:\Users\u.dereli\go
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16024_BFNVFEIKUHEGQUUI
+# environment
+COMPUTERNAME = UMUT-PC
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+GOLAND = C:\Program Files\JetBrains\GoLand 2022.1\bin;
+# environment
+USERDNSDOMAIN = SUPERPAY.TECH
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIG 
+INAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = U.Dereli
+# environment
+PUBLIC = C:\Users\Public
+# environment
+GOMODCACHE = C:\Users\u.dereli\go\pkg\mod
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\u.dereli\AppData\Roaming\Code\CachedData\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\SUPERPAYDC
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = SUPERPAY
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := build
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\u.dereli\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCE 
+SSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\873cb5fcc5a48b34e2147e60a6739c38-1.69.0-main-sock
+# environment
+HOMEPATH = \Users\u.dereli
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\u.dereli\AppData\Roaming
+# environment
+TEMP = C:\Users\UDE1E~1.DER\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION 
+ = 8e0c
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 16024
+# environment
+USERDOMAIN_ROAMINGPROFILE = SUPERPAY
+# variable set hash-table stats:
+# Load=93/1024=9%, Rehash=0, Collisions=10/113=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# : could not be stat'd.
+# C:\Program Files\Docker\Docker\resources\bin (key C:/Program Files/ 
+Docker/Docker/resources/bin, mtime 1653041398): 13 files, no impossibilities.
+# C:\Program Files\Go\bin (key C:/Program Files/Go/bin, mtime 1657361311): 4 files, no impossibilities.
+# C:\Users\u.dereli\AppData\Local\GitHubDesktop\bin (key C:/Users/u.dereli/AppData/Local/GitHubDesktop/bin, mtime 1652254635): 4 files, no impossibilities.
+# C:\Users\u.dereli\AppData\Local\Microsoft\WindowsApps (key C:/Users/u.dereli/AppData/Local/Microsoft/WindowsApps, mtime 1656678115): 17 files, no impossibilities.
+# C:\Wind 
+ows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1624464151): 30 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1655241122): 171 files, no impossibilities.
+# . (key c:/go/goravel, mtime 1657565402): 21 files, no impossibilities.
+# C:\Users\u.dereli\go\bin (key C:/Users/u.dereli/go/bin, mtime 1657451021): 7 files, no impossibilities.
+# C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1652810553): 11 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1652810530): 13 files, no impossibilities.
+# C:\TDM-GCC-64\bin (key C:/TDM-GCC-64/bin, mtime 1652651042): 61 files, no impossibilities.
+# C:\Python310\ (key C:/Python310/, mtime 1652810643): 18 files, no impossibilities.
+# C:\Python310\Scripts\ (key C:/Python310/Scripts/, mtime 1652810643): 5 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files\PuTTY\ (key C:/Program Files/PuTTY/, mtime 1652254566): 12 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1656939244): 116 files, no impossibilities.
+# C:\Users\u.dereli\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/u.dereli/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1657222495): 4 files, no impossibilities.
+# C:\ProgramData\DockerDesktop\version-bin: could not be stat'd.
+# C:\Program Files\Kubernetes\Minikube (key C:/Program Files/Kubernetes/Minikube, mtime 1652791857): 6 files, no impossibiliti 
+es.
+# C:\Users\u.dereli\AppData\Roaming\npm (key C:/Users/u.dereli/AppData/Roaming/npm, mtime 1657066429): 36 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1652260325): 8 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1657092270): 2913 files, no impossibilities.
+# C:\go\bin (key C:/go/bin, mtime 1652281187): 6 files, no impossibilities.
+# C:\Program Files\JetBrains\GoLand 2022.1\bin (key C:/Program Files/JetBrains/GoLand 2022.1/bin, mtime 1652260780): 28 files, no impossibilities.
+# C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1652272326): 7 files, no impossibilities.
+
+# 3511 files, no impossibilities in 26 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+stop:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 27):
+	@echo "Starging the front end..."
+	@taskkill /IM ${BINARY_NAME} /F
+	@echo "Stopped Gortisan!"
+	
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+start: run
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 20):
+	@echo "Testing..."
+	@go test ./...
+	@echo "Done!"
+	
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-11 13:36:58
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 4):
+	@go mod vendor
+	@go build -o tmp/${BINARY_NAME}
+	@echo Gortisan built!
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+restart: stop start
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: build
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 9):
+	@echo "Staring Gortisan..."
+	@.\tmp\${BINARY_NAME} &
+	@echo "Gortisan started!"
+	
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 14):
+	@echo "Cleaning..."
+	@go clean
+	@del .\tmp\${BINARY_NAME}
+	@echo "Cleaned!"
+	
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/26=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Mon Jul 11 21:50:27 2022
+
+ 
+make.exe: *** No rule to make target `all'.  Stop.
+

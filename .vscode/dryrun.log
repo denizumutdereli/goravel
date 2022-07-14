@@ -1,0 +1,7 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `c:/go/goravel'
+go mod vendor
+go build -o tmp/gortisan.exe
+echo Gortisan built!
+make.exe: Leaving directory `c:/go/goravel'
+ 
