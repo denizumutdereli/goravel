@@ -1,6 +1,7 @@
 package handlers
 
 import (
+	"goravel/models"
 	"net/http"
 
 	"github.com/CloudyKit/jet/v6"
@@ -9,7 +10,8 @@ import (
 )
 
 type Handlers struct {
-	App *gortisan.Gortisan
+	App    *gortisan.Gortisan
+	Models models.Models
 }
 
 func (h *Handlers) Home(w http.ResponseWriter, r *http.Request) {

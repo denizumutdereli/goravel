@@ -2,6 +2,7 @@ package main
 
 import (
 	"goravel/handlers"
+	"goravel/models"
 	"log"
 	"os"
 
@@ -37,6 +38,8 @@ func initApplication() *application {
 	}
 
 	app.App.Routes = app.routes()
+
+	app.Models = models.New(app.App.DB.Pool)
 
 	return app
 }
